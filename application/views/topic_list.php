@@ -5,7 +5,7 @@
     <?php
     foreach($topics as $entry){
     ?>
-        <li class="nav-item" role="presentation"><button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tabpane" aria-controls="profile" aria-selected="true"><a href="/index.php/topic/get/<?=$entry->id?>"><?=$entry->title?></a></button></li>
+        <li class="nav-item" role="presentation"><button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tabpane" aria-controls="profile" aria-selected="true"><a href="/index.php/topic/get/<?=$entry->id?>" style="color: black; text-decoration: none;"><?=$entry->title?></a></button></li>
     <?php
     }
     ?>

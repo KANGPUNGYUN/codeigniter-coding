@@ -1,4 +1,4 @@
-    <div class="col-10">
+    <div class="col-10" style="margin-top: 30px;">
         <article>
             <h1><?=$topic->title?></h1>
             <div>
